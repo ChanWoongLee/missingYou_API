@@ -25,7 +25,7 @@ SECRET_KEY = 'jqd+z--o72idlc^9v-g6*vx6s4ifmz86__h(21a0v!8_t(clcj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'getCode'
+    'getCode',
+    'rest_framework_swagger',
 ]
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
