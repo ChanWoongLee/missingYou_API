@@ -1,0 +1,16 @@
+# .virtualenv
+Include/
+LICENSE.txt
+Lib/
+Scripts/
+tcl/
+bin
+
+### Django ### 
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+media
+
